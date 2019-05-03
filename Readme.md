@@ -9,11 +9,32 @@ cd desktop
 git clone https://github.com/ammonk/sean-starter.git
 ```
 
-### How to run
+### Install express packages
 
 ```
 npm install
-npm run dev
 ```
 
-### How To Make From Scratch
+### Install angular packages
+
+```
+cd client
+npm install
+```
+
+### How to run
+
+Running the project requires two terminal windows, one for express and one for angular
+
+Terminal 1 (express)
+
+```
+npm start
+```
+
+Terminal 2 (angular)
+
+```
+cd client
+ng serve --open
+```
